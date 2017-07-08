@@ -1,0 +1,8 @@
+{
+    "sand": ["air", "earth"],
+    "rain": ["air", "water"],
+    "energy": ["air", "fire"],
+    "mud": ["earth", "water"],
+    "lava": ["earth", "fire"],
+    "steam": ["water", "fire"],
+} 
