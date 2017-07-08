@@ -1,8 +1,26 @@
 {
-    "sand": ["air", "earth"],
+    "dust": ["air", "earth"],
     "rain": ["air", "water"],
     "energy": ["air", "fire"],
     "mud": ["earth", "water"],
     "lava": ["earth", "fire"],
-    "steam": ["water", "fire"],
+    "steam":[
+        ["water", "fire"],
+        ["water", "energy"],
+    ],
+    "earthquake": ["earth", "energy"],
+    "volcano":["earth", "lava"],
+    "geyser": ["earth", "steam"],
+    "plant": ["earth", "rain"],
+    "brick": ["fire", "mud"],
+    "gunpowder": ["fire", "dust"],
+    "tobacco": ["fire", "plant"],
+    "algae": ["water", "plant"],
+    "obsidian": ["water", "lava"],
+    "wind": ["air", "energy"],
+    "stone": ["air", "lava"],
+    "cloud": ["air", "steam"],
+    "sand": ["air", "stone"],
+    "dune": ["sand", "wind"],
+    
 } 
