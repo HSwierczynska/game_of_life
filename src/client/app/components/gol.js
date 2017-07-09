@@ -1,11 +1,17 @@
+import compare from '../functions/compare.js';
+import objectsData from '../data/objects.json';
+
+
+
+
 class GOL extends React.Component{
     render(){
         return (
             <div>
-                <button >Air</button><br />
-                <button >Earth</button><br />
-                <button >Water</button><br />
-                <button >Fire</button><br />
+                <button >air</button><br />
+                <button >earth</button><br />
+                <button >water</button><br />
+                <button >fire</button><br />
 
 
 
