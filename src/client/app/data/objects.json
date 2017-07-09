@@ -13,9 +13,14 @@
     "geyser": ["earth", "steam"],
     "plant": ["earth", "rain"],
     "grass": ["earth", "plant"],
+    "dew": ["water", "grass"],
     "brick": ["fire", "mud"],
     "gunpowder": ["fire", "dust"],
     "tobacco": ["fire", "plant"],
+    "metal": ["fire", "stone"],
+    "glass": ["fire", "sand"],
+    "time": ["sand", "glass"],
+    "tree": ["plant", "time"],
     "algae": ["water", "plant"],
     "obsidian": ["water", "lava"],
 
@@ -25,6 +30,9 @@
     "sand": ["air", "stone"],
     "dune": ["sand", "wind"],
     "wave": ["sea", "wind"],
+    "swamp": ["mud", "plant"],
+    "life": ["swamp", "energy"],
+    "human": ["earth", "life"],
   "pressure":[
         ["air, air"],
         ["earth", "earth"]
@@ -37,5 +45,5 @@
     "flood": ["rain", "rain"],
     "desert": ["sand", "sand"]
 
+
 } 
-x

@@ -8,16 +8,19 @@ class GOL extends React.Component{
     render(){
         return (
             <div>
-                <button >air</button><br />
-                <button >earth</button><br />
-                <button >water</button><br />
-                <button >fire</button><br />
+                <button value="air"></button><br />
+                <button value="earth"></button><br />
+                <button value="water"></button><br />
+                <button value="fire"></button><br />
 
 
 
             </div>
         )
     }
+
+
+
 
 
 
