@@ -2,7 +2,7 @@
   "name": "gameOfLife",
   "version": "0.1.0",
   "license": "GPL-3.0",
-  "author": "hswierczynska",
+  "author": "nekonee",
   "scripts": {
     "start": "node index.js",
     "watch": "webpack -d --watch",
